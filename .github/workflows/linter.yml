@@ -10,7 +10,7 @@ Jobs:
       uses: action/checkout@v2
       
     - name: Run the linting check
-      uses: agithub/super-linter@v3
+      uses: github/super-linter@v3
       env:
         DEFAULT_BRANCH: main
         GITHUB_TOKEN: ${{ secret.GITHUB_TOKEN }}
